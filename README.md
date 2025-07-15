@@ -19,7 +19,7 @@
 
 - 🧠 I specialize in **Offensive Security, Tool Development, and Automation**
 
-- 💻 My Tools: **RECONK, ZoneSniper, RedirectWolf, IntrospectorX**
+- 💻 My Tools: **RECONK, DarkLens, ZoneSniper, RedirectWolf, IntrospectorX**
 
 <img align="right" width="400" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnBhOWc5djRtcTNhNDF5NWJvbTEydHdxdHJ5c2c3YzdhNnp1N3o4dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MD0svLSDeudszrNrp0/giphy.gif">
 
