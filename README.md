@@ -17,6 +17,8 @@
   </a>
 </p>
 
+- 🔍 Recon isn’t a phase. It’s an obsession.
+
 - 🧠 I specialize in **Offensive Security, Tool Development, and Automation**
 
 - 💻 My Tools: **RECONK, DarkLens, ZoneSniper, RedirectWolf, IntrospectorX**
@@ -30,8 +32,6 @@
 - 📫 Reach me at **naveenbeast@gmail.com**
 
 - 📡 Research interest: **Zero-click attacks and Red Team Infrastructure**
-
-- 🔍 Recon isn’t a phase. It’s an obsession.
 
 - ⚡ Fun fact: `Sleep is a segmentation fault I haven’t patched yet.`
 
