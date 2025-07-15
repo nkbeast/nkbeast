@@ -13,7 +13,7 @@
 
 <p align="left">
   <a href="https://x.com/naveenkumard47" target="blank">
-    <img src="https://img.shields.io/twitter/follow/nkbeast?logo=twitter&style=for-the-badge" alt="nkbeast" />
+    <img src="https://img.shields.io/twitter/follow/iamnk?logo=twitter&style=for-the-badge" alt="nkbeast" />
   </a>
 </p>
 
