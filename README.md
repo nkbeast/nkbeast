@@ -25,7 +25,7 @@
 
 - 💬 Ask me about **Bugbounty and Offensive Security**
 
-- 👨‍💻 More About me [iamnk.com](iamnk.versel.app)
+- 👨‍💻 More About me <a href="https://iamnk.versel.app" target="_blank">iamnk.com</a>
 
 - 📫 Reach me at **naveenbeast@gmail.com**
 
