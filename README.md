@@ -17,7 +17,7 @@
   </a>
 </p>
 
-- 🔍 Recon isn’t a phase. It’s an obsession.
+- 🔍 **Recon isn’t a phase. It’s an obsession.**
 
 - 🧠 I specialize in **Offensive Security, Tool Development, and Automation**
 
