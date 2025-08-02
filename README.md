@@ -31,7 +31,7 @@
 
 - 📫 Reach me at **naveenbeast@gmail.com**
 
-- 📡 Research interest: **Zero-click attacks and Red Team Infrastructure**
+- 📡 Research interest: **Zero-day attacks and Red Team Infrastructure**
 
 - ⚡ Fun fact: `Sleep is a segmentation fault I haven’t patched yet.`
 
