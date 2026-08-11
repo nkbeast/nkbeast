@@ -21,7 +21,7 @@
 
 - 🧠 I specialize in **Offensive Security, Tool Development, and Automation**
 
-- 💻 My Tools: **RECONK, DarkLens, ZoneSniper, RedirectWolf, IntrospectorX, PhishGaurd**
+- 💻 My Tools: **RECONK, Ghost Recover**
 
 - ⚡ What is and always will be my greatest creation is <a href="https://github.com/nkbeast/reconk" target="_blank">**RECONK**</a>
 
