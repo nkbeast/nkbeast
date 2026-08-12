@@ -1,21 +1,21 @@
 <h1 align="center">Hi 👋, I'm Naveenkumar (iamnk) </h1>
 <h3 align="center"> Cybersecurity Researcher </h3>
 
-<p align="left">
+<!---<p align="left">
   <img src="https://komarev.com/ghpvc/?username=nkbeast&label=Profile%20views&color=0e75b6&style=flat" alt="nkbeast" />
 </p>
 
-<!---<p align="left">
+<p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-trophies.vercel.app/?username=nkbeast" alt="nkbeast" />
   </a>
-</p> --->
+</p> 
 
 <p align="left">
   <a href="https://x.com/naveenkumard47" target="blank">
     <img src="https://img.shields.io/twitter/follow/iamnk?logo=twitter&style=for-the-badge" alt="nkbeast" />
   </a>
-</p>
+</p>--->
 
 - 🔍 **Recon isn’t a phase. It’s an obsession.**
 
