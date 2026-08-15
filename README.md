@@ -24,7 +24,6 @@
 - ⚡ What is and always will be my greatest creation is <a href="https://github.com/nkbeast/ghost-recover" target="_blank">**Ghost Recover**</a>
 - 💬 Ask me about **Bugbounty and Offensive Security**
 - 👨‍💻 More About me <a href="https://iamnk.vercel.app" target="_blank">iamnk.com</a>
-- 📫 Reach me at **naveenbeast@gmail.com**
 - 📡 Research interest: **Zero-day attacks and Red Team Infrastructure**
 - ⚡ Fun fact: `Sleep is a segmentation fault I haven't patched yet.`
 
