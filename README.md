@@ -16,34 +16,50 @@
 
 ---
 
-## `:~$` cat track_record
+## `:~$` ls ~/arsenal
 
-<p>
-  <img src="https://img.shields.io/badge/HackTheBox-India_%232_%C2%B7_Global_%2387_(2022)-0d1117?style=for-the-badge&logo=hackthebox&logoColor=00FF9C" alt="HackTheBox India #2 · Global #87" />
-  <img src="https://img.shields.io/badge/Hall_of_Fame-NASA-0d1117?style=for-the-badge&logo=nasa&logoColor=00FF9C" alt="NASA hall of fame" />
+Flagship builds — the tools I'm known for. Star counts are live.
+
+<a href="https://github.com/nkbeast/ghost-recover">
+  <img src="assets/ghost-recover-card.png" alt="ghost-recover — Linux data recovery engine" width="100%" />
+</a>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/nkbeast/ghost-recover?style=for-the-badge&label=STARS&labelColor=0d1117&color=00FF9C&logo=github&logoColor=white" alt="stars" />
+  <img src="https://img.shields.io/github/forks/nkbeast/ghost-recover?style=for-the-badge&label=FORKS&labelColor=0d1117&color=22D3EE&logo=github&logoColor=white" alt="forks" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Credited_by-private_orgs_%C2%B7_responsible_disclosure-0d1117?style=for-the-badge&logo=bugcrowd&logoColor=00FF9C" alt="private orgs hall of fame" />
-  <img src="https://img.shields.io/badge/VAPT-Web_%C2%B7_Mobile_%C2%B7_Cloud_%C2%B7_Network-0d1117?style=for-the-badge&logo=wireshark&logoColor=00FF9C" alt="VAPT: web, mobile, cloud, network" />
-</p>
+<p align="center">Recovers deleted files from 44 filesystems, carves 315 file formats by signature,
+reassembles broken RAID arrays, images failing drives, and repairs damaged disks.</p>
 
 ---
 
-## `:~$` ls ~/arsenal
+<a href="https://github.com/nkbeast/reconk-cli">
+  <img src="assets/reconk-card.png" alt="reconk-cli — bug bounty recon orchestrator" width="100%" />
+</a>
 
-Weapons-grade tooling, built from the bugs I actually hit. Star counts are live.
+<p align="center">
+  <img src="https://img.shields.io/github/stars/nkbeast/reconk-cli?style=for-the-badge&label=STARS&labelColor=0d1117&color=00FF9C&logo=github&logoColor=white" alt="stars" />
+  <img src="https://img.shields.io/github/forks/nkbeast/reconk-cli?style=for-the-badge&label=FORKS&labelColor=0d1117&color=22D3EE&logo=github&logoColor=white" alt="forks" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+</p>
 
-| Tool | Purpose | Lang | ★ |
-|---|---|---|---|
-| **[ghost-recover](https://github.com/nkbeast/ghost-recover)** | Linux data recovery engine — 44 filesystems, 315 file signatures, RAID reassembly, failing-drive imaging | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) | ![](https://img.shields.io/github/stars/nkbeast/ghost-recover?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00FF9C&logo=github&logoColor=white) |
-| **[reconk-cli](https://github.com/nkbeast/reconk-cli)** | End-to-end bug bounty recon orchestrator with interactive TUI — subdomains → takeover detection | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![](https://img.shields.io/github/stars/nkbeast/reconk-cli?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00FF9C&logo=github&logoColor=white) |
-| **[DarkLens](https://github.com/nkbeast/DarkLens)** | Camera, location & voice-recorder attack surface research | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![](https://img.shields.io/github/stars/nkbeast/DarkLens?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00FF9C&logo=github&logoColor=white) |
-| **[ZoneSniper](https://github.com/nkbeast/ZoneSniper)** | Fast AXFR zone-transfer scanner — bulk DNS, threaded, HTML reports | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![](https://img.shields.io/github/stars/nkbeast/ZoneSniper?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00FF9C&logo=github&logoColor=white) |
-| **[RedirectWolf](https://github.com/nkbeast/RedirectWolf)** | Async open-redirect mass scanner — httpx + asyncio, low RAM, high concurrency | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![](https://img.shields.io/github/stars/nkbeast/RedirectWolf?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00FF9C&logo=github&logoColor=white) |
-| **[IntrospectorX](https://github.com/nkbeast/IntrospectorX)** | Threaded GraphQL introspection scanner — exposed schemas, HTML reporting | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![](https://img.shields.io/github/stars/nkbeast/IntrospectorX?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00FF9C&logo=github&logoColor=white) |
-| **[PhishGuard](https://github.com/nkbeast/PhishGuard)** | Bulk DNS / MX / DMARC scanner for phishing-prone lookalike domains | ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | ![](https://img.shields.io/github/stars/nkbeast/PhishGuard?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00FF9C&logo=github&logoColor=white) |
-| **[VPS-Setup](https://github.com/nkbeast/VPS-Setup)** | One-shot hardened VPS provisioning for bug bounty ops | ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | ![](https://img.shields.io/github/stars/nkbeast/VPS-Setup?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00FF9C&logo=github&logoColor=white) |
+<p align="center">End-to-end bug bounty reconnaissance with an interactive TUI — subdomain enumeration,
+DNS, live host filtering, ports, URL harvesting, params, JS analysis, tech fingerprinting
+& subdomain takeover detection.</p>
+
+---
+
+<p align="center">
+  <a href="https://github.com/nkbeast/DarkLens"><strong>DarkLens</strong></a>
+  — Camera, location & voice-recorder attack surface research
+  &nbsp;
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/github/stars/nkbeast/DarkLens?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00FF9C&logo=github&logoColor=white" alt="stars" />
+</p>
+
+<p align="center"><sub><a href="https://github.com/nkbeast?tab=repositories">→ browse all repositories</a></sub></p>
 
 ---
 

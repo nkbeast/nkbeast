@@ -61,11 +61,11 @@ def make(path):
         d.line([(cx, H - 26), (cx, H - 54)], fill=LINE, width=2)
 
     # ---- title ----
-    title_font = ImageFont.truetype(BOLD, 168)
-    title = "NKBEAST"
+    title_font = ImageFont.truetype(BOLD, 208)
+    title = "NK"
     # measure with tracking
-    tw = sum(d.textlength(c, font=title_font) for c in title) + 26 * (len(title) - 1)
-    tx, ty = W / 2 - tw / 2, 74
+    tw = sum(d.textlength(c, font=title_font) for c in title) + 80 * (len(title) - 1)
+    tx, ty = W / 2 - tw / 2, 58
 
     # glow layer
     glow_layer = Image.new("RGB", (W, H), (0, 0, 0))
@@ -73,8 +73,8 @@ def make(path):
     x = tx
     for c in title:
         gd.text((x, ty), c, font=title_font, fill=GREEN)
-        x += d.textlength(c, font=title_font) + 26
-    glow_layer = glow_layer.filter(ImageFilter.GaussianBlur(22))
+        x += d.textlength(c, font=title_font) + 80
+    glow_layer = glow_layer.filter(ImageFilter.GaussianBlur(26))
     img = Image.blend(img, Image.blend(img, glow_layer, 0.55), 0.9)
     d = ImageDraw.Draw(img)
 
@@ -84,7 +84,7 @@ def make(path):
     x = tx
     for c in title:
         md.text((x, ty), c, font=title_font, fill=255)
-        x += d.textlength(c, font=title_font) + 26
+        x += d.textlength(c, font=title_font) + 80
     grad = vertical_gradient((W, H), PALE, GREEN_DIM)
     band = vertical_gradient((W, 200), (0, 0, 0), (0, 0, 0))
     img = Image.composite(grad, img, mask)
