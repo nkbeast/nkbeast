@@ -1,44 +1,36 @@
 <div align="center">
 
-```
-███╗   ██╗██╗  ██╗██████╗ ███████╗ █████╗ ███████╗████████╗
-████╗  ██║██║ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔════╝╚══██╔══╝
-██╔██╗ ██║█████╔╝ ██████╔╝█████╗  ███████║███████╗   ██║
-██║╚██╗██║██╔═██╗ ██╔══██╗██╔══╝  ██╔══██║╚════██║   ██║
-██║ ╚████║██║  ██╗██████╔╝███████╗██║  ██║███████║   ██║
-╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝
-```
-
-**`[ root@nkbeast:~# ]`** — *offensive security research lab*
+<img src="assets/crt-banner.png" alt="nkbeast — offensive security researcher" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=1100&color=00FF9C&center=true&vCenter=true&width=660&lines=Offensive+Security+Researcher;Bug+Bounty+Hunter+%C2%B7+VAPT;Security+Tool+Developer;Breaking+things+before+bad+actors+do" alt="offensive security researcher — bug bounty hunter — tool developer" />
 
+*I break web apps before bad actors do — and build the tooling while I'm at it.*
+
 <p>
-  <img src="https://img.shields.io/badge/HackTheBox-India_%232_%C2%B7_Global_%2387_(2022)-0d1117?style=flat-square&logo=hackthebox&logoColor=00FF9C" alt="HackTheBox India #2 · Global #87" />
-  <img src="https://img.shields.io/badge/Hall_of_Fame-NASA_%2B_Private_Orgs-0d1117?style=flat-square&logo=nasa&logoColor=00FF9C" alt="NASA + private orgs hall of fame" />
-  <img src="https://img.shields.io/badge/VAPT-Web_%C2%B7_Mobile_%C2%B7_Cloud_%C2%B7_Network-0d1117?style=flat-square&logo=wireshark&logoColor=00FF9C" alt="VAPT: web, mobile, cloud, network" />
   <img src="https://komarev.com/ghpvc/?username=nkbeast&label=VISITORS&color=00FF9C&style=flat-square" alt="profile visitors" />
+  <img src="https://img.shields.io/badge/%F0%9F%87%AE%F0%9F%87%B3_India-0d1117?style=flat-square" alt="India" />
+  <img src="https://img.shields.io/badge/Open_for-bug_bounty_%C2%B7_red_team_%C2%B7_tooling_collabs-0d1117?style=flat-square&logo=github&logoColor=00FF9C" alt="open for collaboration" />
 </p>
 
 </div>
 
-```bash
-┌──(nkbeast㉿ops)-[~]
-└─$ whoami
-  Naveenkumar — Offensive Security Researcher · Bug Bounty Hunter · Tool Builder
-┌──(nkbeast㉿ops)-[~]
-└─$ cat focus.txt
-  web exploitation · recon automation · red team ops · digital forensics
-┌──(nkbeast㉿ops)-[~]
-└─$ ./track_record.sh --disclosures
-  credited by NASA & private orgs · HackTheBox India #2 · Global #87 (2022)
-┌──(nkbeast㉿ops)-[~]
-└─$ █
-```
+---
+
+## `:~$` cat track_record
+
+<p>
+  <img src="https://img.shields.io/badge/HackTheBox-India_%232_%C2%B7_Global_%2387_(2022)-0d1117?style=for-the-badge&logo=hackthebox&logoColor=00FF9C" alt="HackTheBox India #2 · Global #87" />
+  <img src="https://img.shields.io/badge/Hall_of_Fame-NASA-0d1117?style=for-the-badge&logo=nasa&logoColor=00FF9C" alt="NASA hall of fame" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Credited_by-private_orgs_%C2%B7_responsible_disclosure-0d1117?style=for-the-badge&logo=bugcrowd&logoColor=00FF9C" alt="private orgs hall of fame" />
+  <img src="https://img.shields.io/badge/VAPT-Web_%C2%B7_Mobile_%C2%B7_Cloud_%C2%B7_Network-0d1117?style=for-the-badge&logo=wireshark&logoColor=00FF9C" alt="VAPT: web, mobile, cloud, network" />
+</p>
 
 ---
 
-## `root@nkbeast:~$` ls ~/arsenal/
+## `:~$` ls ~/arsenal
 
 Weapons-grade tooling, built from the bugs I actually hit. Star counts are live.
 
@@ -55,7 +47,7 @@ Weapons-grade tooling, built from the bugs I actually hit. Star counts are live.
 
 ---
 
-## `root@nkbeast:~$` cat skills.matrix
+## `:~$` cat skills.matrix
 
 **`// operations`**
 
@@ -89,12 +81,12 @@ Weapons-grade tooling, built from the bugs I actually hit. Star counts are live.
 
 ---
 
-## `root@nkbeast:~$` tail -f /var/log/activity
+## `:~$` tail -f /var/log/activity
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=nkbeast&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00FF9C&icon_color=22D3EE&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub stats" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nkbeast&theme=github_dark" alt="GitHub stats — stars, commits, PRs, issues, contributions" />
     </td>
     <td width="50%">
       <img src="https://streak-stats.demolab.com?user=nkbeast&hide_border=true&background=0d1117&stroke=00FF9C&ring=22D3EE&fire=FF9E0B&currStreakNum=e6edf3&currStreakLabel=00FF9C&sideNums=e6edf3&sideLabels=8b949e&dates=8b949e" alt="GitHub streak" />
@@ -102,9 +94,18 @@ Weapons-grade tooling, built from the bugs I actually hit. Star counts are live.
   </tr>
 </table>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkbeast&layout=compact&hide_border=true&bg_color=0d1117&title_color=00FF9C&text_color=c9d1d9&langs_count=8" alt="Top languages" />
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nkbeast&theme=github_dark" alt="repos per language" />
+    </td>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nkbeast&theme=github_dark" alt="productive time" />
+    </td>
+  </tr>
+</table>
 
-<img src="https://github-trophies.vercel.app/?username=nkbeast&theme=matrix&no-frame=true&no-bg=true&margin-w=4" alt="GitHub trophies" />
+<img src="https://github-trophies.vercel.app/?username=nkbeast&theme=matrix&no-frame=true&no-bg=true&margin-w=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub trophies" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nkbeast/nkbeast/output/github-contribution-grid-snake-dark.svg" />
@@ -114,7 +115,7 @@ Weapons-grade tooling, built from the bugs I actually hit. Star counts are live.
 
 ---
 
-## `root@nkbeast:~$` ssh socials
+## `:~$` ssh socials
 
 <p>
   <a href="https://iamnk.vercel.app"><img src="https://img.shields.io/badge/iamnk.vercel.app-0d1117?style=for-the-badge&logo=vercel&logoColor=00FF9C" alt="Website" /></a>
