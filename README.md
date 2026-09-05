@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/crt-banner.png" alt="nkbeast — offensive security researcher" width="100%" />
+<img src="assets/banner-nk.png" alt="nkbeast — offensive security researcher" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=1100&color=00FF9C&center=true&vCenter=true&width=660&lines=Offensive+Security+Researcher;Bug+Bounty+Hunter+%C2%B7+VAPT;Security+Tool+Developer;Breaking+things+before+bad+actors+do" alt="offensive security researcher — bug bounty hunter — tool developer" />
 
