@@ -124,9 +124,9 @@ DNS, live host filtering, ports, URL harvesting, params, JS analysis, tech finge
 <img src="https://github-trophies.vercel.app/?username=nkbeast&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub trophies" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nkbeast/nkbeast/output/github-contribution-grid-snake-blue-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nkbeast/nkbeast/output/github-contribution-grid-snake-blue.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/nkbeast/nkbeast/output/github-contribution-grid-snake-blue.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nkbeast/nkbeast/output/github-contribution-grid-snake-ui-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nkbeast/nkbeast/output/github-contribution-grid-snake-ui.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/nkbeast/nkbeast/output/github-contribution-grid-snake-ui.svg" />
 </picture>
 
 ---
