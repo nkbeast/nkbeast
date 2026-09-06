@@ -2,14 +2,12 @@
 
 <img src="assets/banner-nk-blue.png" alt="nkbeast — offensive security researcher" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=1100&color=00C2FF&center=true&vCenter=true&width=660&lines=Offensive+Security+Researcher;Bug+Bounty+Hunter+%C2%B7+VAPT;Security+Tool+Developer;Breaking+things+before+bad+actors+do" alt="offensive security researcher — bug bounty hunter — tool developer" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=1100&color=00C2FF&center=true&vCenter=true&width=660&lines=Offensive+Security+Researcher;Security+Tool+Developer;Breaking+things+before+bad+actors+do" alt="offensive security researcher — security tool developer" />
 
 *I break web apps before bad actors do — and build the tooling while I'm at it.*
 
-<p>
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=nkbeast&label=VISITORS&color=00C2FF&style=flat-square" alt="profile visitors" />
-  <img src="https://img.shields.io/badge/%F0%9F%87%AE%F0%9F%87%B3_India-0d1117?style=flat-square" alt="India" />
-  <img src="https://img.shields.io/badge/Open_for-bug_bounty_%C2%B7_red_team_%C2%B7_tooling_collabs-0d1117?style=flat-square&logo=github&logoColor=00C2FF" alt="open for collaboration" />
 </p>
 
 </div>
@@ -21,7 +19,7 @@
 Flagship builds — the tools I'm known for. Star counts are live.
 
 <a href="https://github.com/nkbeast/ghost-recover">
-  <img src="assets/ghost-recover-card-blue.png" alt="ghost-recover — Linux data recovery engine" width="100%" />
+  <img src="assets/ghost-recover-card-v2.png" alt="ghost-recover — Linux data recovery engine" width="100%" />
 </a>
 
 <p align="center">

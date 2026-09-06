@@ -81,16 +81,19 @@ def gradient_title(img, x, y, text, font, tracking):
 
 
 def draw_ghost_icon(img, cx, cy, r):
-    # glow
-    gl = Image.new("RGB", (W, H), (0, 0, 0))
+    # glow via transparent overlay (non-destructive, like the radar sweep)
+    gl = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     gd = ImageDraw.Draw(gl)
-    _ghost(gd, cx, cy, r, BLUE)
+    _ghost(gd, cx, cy, int(r * 1.06), BLUE + (200,))
     gl = gl.filter(ImageFilter.GaussianBlur(18))
-    img = Image.blend(img, Image.blend(img, gl, 0.6), 0.85)
+    img = Image.alpha_composite(img.convert("RGBA"), gl)
     d = ImageDraw.Draw(img)
     d.ellipse([cx - r * 1.35, cy - r * 1.35, cx + r * 1.35, cy + r * 1.35],
               outline=LINE, width=2)
-    _ghost(d, cx, cy, r, BLUE)
+    ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    od = ImageDraw.Draw(ov)
+    _ghost(od, cx, cy, r, BLUE + (255,))
+    img = Image.alpha_composite(img, ov).convert("RGB")
     return img
 
 
@@ -102,9 +105,10 @@ def _ghost(d, cx, cy, r, fill):
         bx = cx - r + br + i * (2 * r - 2 * br) / 3
         d.ellipse([bx - br, cy + r * 0.78 - br, bx + br, cy + r * 0.78 + br], fill=fill)
     er = r * 0.13
+    eye = (5, 10, 18, 255) if isinstance(fill, tuple) and len(fill) == 4 else BG_TOP
     for ex in (cx - r * 0.38, cx + r * 0.38):
         d.ellipse([ex - er, cy - r * 0.28 - er * 1.7, ex + er, cy - r * 0.28 + er * 1.7],
-                  fill=BG_TOP)
+                  fill=eye)
 
 
 def draw_radar_icon(img, cx, cy, r):
@@ -159,7 +163,7 @@ def make_card(path, repo, name, tagline, features, icon):
 
 if __name__ == "__main__":
     make_card(
-        "/home/nk/Documents/project/websites/nkbeast/assets/ghost-recover-card-blue.png",
+        "/home/nk/Documents/project/websites/nkbeast/assets/ghost-recover-card-v2.png",
         "ghost-recover",
         "GHOST-RECOVER",
         "LINUX DATA RECOVERY ENGINE",
