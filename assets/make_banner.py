@@ -8,13 +8,13 @@ BOLD = "/usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf"
 REG = "/usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf"
 
 # palette
-BG_TOP = (6, 13, 10)
-BG_BOT = (10, 20, 15)
-GREEN = (0, 255, 156)
-GREEN_DIM = (0, 179, 104)
-PALE = (214, 255, 234)
-SUB = (140, 224, 180)
-LINE = (24, 66, 48)
+BG_TOP = (5, 10, 18)
+BG_BOT = (9, 18, 32)
+BLUE = (0, 194, 255)
+BLUE_DIM = (0, 122, 204)
+PALE = (218, 242, 255)
+SUB = (144, 208, 245)
+LINE = (22, 62, 100)
 
 
 def lerp(a, b, t):
@@ -48,7 +48,7 @@ def make(path):
     dg.ellipse([W / 2 - 560, -260, W / 2 + 560, 300], fill=46)
     glow = glow.filter(ImageFilter.GaussianBlur(120))
     img = Image.composite(
-        vertical_gradient((W, H), (14, 36, 26), BG_TOP), img, glow
+        vertical_gradient((W, H), (12, 34, 60), BG_TOP), img, glow
     )
 
     d = ImageDraw.Draw(img)
@@ -72,7 +72,7 @@ def make(path):
     gd = ImageDraw.Draw(glow_layer)
     x = tx
     for c in title:
-        gd.text((x, ty), c, font=title_font, fill=GREEN)
+        gd.text((x, ty), c, font=title_font, fill=BLUE)
         x += d.textlength(c, font=title_font) + 80
     glow_layer = glow_layer.filter(ImageFilter.GaussianBlur(26))
     img = Image.blend(img, Image.blend(img, glow_layer, 0.55), 0.9)
@@ -85,7 +85,7 @@ def make(path):
     for c in title:
         md.text((x, ty), c, font=title_font, fill=255)
         x += d.textlength(c, font=title_font) + 80
-    grad = vertical_gradient((W, H), PALE, GREEN_DIM)
+    grad = vertical_gradient((W, H), PALE, BLUE_DIM)
     band = vertical_gradient((W, 200), (0, 0, 0), (0, 0, 0))
     img = Image.composite(grad, img, mask)
     d = ImageDraw.Draw(img)
@@ -94,7 +94,7 @@ def make(path):
     rule_y = 308
     for rx in range(500, W - 500):
         t = 1 - abs((rx - 500) / (W - 1000) - 0.5) * 2
-        col = lerp((8, 48, 32), GREEN, t)
+        col = lerp((8, 52, 92), BLUE, t)
         d.line([(rx, rule_y), (rx, rule_y + 2)], fill=col)
 
     # subtitle
@@ -122,4 +122,4 @@ def make(path):
 
 
 if __name__ == "__main__":
-    make("/home/nk/Documents/project/websites/nkbeast/assets/crt-banner.png")
+    make("/home/nk/Documents/project/websites/nkbeast/assets/banner-nk-blue.png")

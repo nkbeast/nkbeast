@@ -6,15 +6,15 @@ W, H = 1600, 420
 BOLD = "/usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf"
 REG = "/usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf"
 
-BG_TOP = (6, 13, 10)
-BG_BOT = (10, 20, 15)
-GREEN = (0, 255, 156)
-GREEN_DIM = (0, 179, 104)
-PALE = (214, 255, 234)
-SUB = (140, 224, 180)
-FEAT = (108, 189, 149)
-PATHC = (86, 148, 118)
-LINE = (24, 66, 48)
+BG_TOP = (5, 10, 18)
+BG_BOT = (9, 18, 32)
+BLUE = (0, 194, 255)
+BLUE_DIM = (0, 122, 204)
+PALE = (218, 242, 255)
+SUB = (144, 208, 245)
+FEAT = (110, 178, 220)
+PATHC = (88, 142, 185)
+LINE = (22, 62, 100)
 
 
 def lerp(a, b, t):
@@ -35,7 +35,7 @@ def base_card():
     dg = ImageDraw.Draw(glow)
     dg.ellipse([W / 2 - 560, -260, W / 2 + 560, 300], fill=40)
     glow = glow.filter(ImageFilter.GaussianBlur(120))
-    img = Image.composite(vertical_gradient((W, H), (12, 32, 23), BG_TOP), img, glow)
+    img = Image.composite(vertical_gradient((W, H), (11, 30, 52), BG_TOP), img, glow)
     d = ImageDraw.Draw(img)
     d.line([(60, 26), (W - 60, 26)], fill=LINE, width=2)
     d.line([(60, H - 26), (W - 60, H - 26)], fill=LINE, width=2)
@@ -76,7 +76,7 @@ def gradient_title(img, x, y, text, font, tracking):
     for c in text:
         md.text((xx, y), c, font=font, fill=255)
         xx += md.textlength(c, font=font) + tracking
-    grad = vertical_gradient((W, H), PALE, GREEN_DIM)
+    grad = vertical_gradient((W, H), PALE, BLUE_DIM)
     return Image.composite(grad, img, mask)
 
 
@@ -84,13 +84,13 @@ def draw_ghost_icon(img, cx, cy, r):
     # glow
     gl = Image.new("RGB", (W, H), (0, 0, 0))
     gd = ImageDraw.Draw(gl)
-    _ghost(gd, cx, cy, r, GREEN)
+    _ghost(gd, cx, cy, r, BLUE)
     gl = gl.filter(ImageFilter.GaussianBlur(18))
     img = Image.blend(img, Image.blend(img, gl, 0.6), 0.85)
     d = ImageDraw.Draw(img)
     d.ellipse([cx - r * 1.35, cy - r * 1.35, cx + r * 1.35, cy + r * 1.35],
               outline=LINE, width=2)
-    _ghost(d, cx, cy, r, GREEN)
+    _ghost(d, cx, cy, r, BLUE)
     return img
 
 
@@ -112,22 +112,22 @@ def draw_radar_icon(img, cx, cy, r):
     d.ellipse([cx - r * 1.35, cy - r * 1.35, cx + r * 1.35, cy + r * 1.35],
               outline=LINE, width=2)
     for rr, wd in ((r, 4), (r * 0.62, 3), (r * 0.30, 3)):
-        d.ellipse([cx - rr, cy - rr, cx + rr, cy + rr], outline=GREEN_DIM, width=wd)
-    d.line([(cx - r, cy), (cx + r, cy)], fill=GREEN_DIM, width=2)
-    d.line([(cx, cy - r), (cx, cy + r)], fill=GREEN_DIM, width=2)
+        d.ellipse([cx - rr, cy - rr, cx + rr, cy + rr], outline=BLUE_DIM, width=wd)
+    d.line([(cx - r, cy), (cx + r, cy)], fill=BLUE_DIM, width=2)
+    d.line([(cx, cy - r), (cx, cy + r)], fill=BLUE_DIM, width=2)
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     od = ImageDraw.Draw(ov)
-    od.pieslice([cx - r, cy - r, cx + r, cy + r], 300, 360, fill=(0, 255, 156, 66))
+    od.pieslice([cx - r, cy - r, cx + r, cy + r], 300, 360, fill=(0, 194, 255, 70))
     img = Image.alpha_composite(img.convert("RGBA"), ov).convert("RGB")
     d = ImageDraw.Draw(img)
     for bx, by in ((cx + r * 0.45, cy - r * 0.38), (cx - r * 0.40, cy + r * 0.42)):
-        d.ellipse([bx - 8, by - 8, bx + 8, by + 8], fill=GREEN)
-    d.ellipse([cx - 7, cy - 7, cx + 7, cy + 7], fill=GREEN)
+        d.ellipse([bx - 8, by - 8, bx + 8, by + 8], fill=BLUE)
+    d.ellipse([cx - 7, cy - 7, cx + 7, cy + 7], fill=BLUE)
     # sweep leading edge
     import math
     ex = cx + r * math.cos(math.radians(-60))
     ey = cy + r * math.sin(math.radians(-60))
-    d.line([(cx, cy), (ex, ey)], fill=GREEN, width=3)
+    d.line([(cx, cy), (ex, ey)], fill=BLUE, width=3)
     return img
 
 
@@ -159,7 +159,7 @@ def make_card(path, repo, name, tagline, features, icon):
 
 if __name__ == "__main__":
     make_card(
-        "/home/nk/Documents/project/websites/nkbeast/assets/ghost-recover-card.png",
+        "/home/nk/Documents/project/websites/nkbeast/assets/ghost-recover-card-blue.png",
         "ghost-recover",
         "GHOST-RECOVER",
         "LINUX DATA RECOVERY ENGINE",
@@ -167,7 +167,7 @@ if __name__ == "__main__":
         "ghost",
     )
     make_card(
-        "/home/nk/Documents/project/websites/nkbeast/assets/reconk-card.png",
+        "/home/nk/Documents/project/websites/nkbeast/assets/reconk-card-blue.png",
         "reconk-cli",
         "RECONK-CLI",
         "BUG BOUNTY RECON ORCHESTRATOR",
